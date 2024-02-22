@@ -1,0 +1,72 @@
+
+*{ /*  tirar o padrão de espaçamento obs: * = a página toda */
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif, helvetica; /*  usa uma fonte, caso não a encontre use outra */
+}
+
+header{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #070F2B;
+    color: #9290C3;
+}
+
+header h1{
+    font-size: 90px;
+}
+
+header h2{
+    font-size: 20px;
+    line-height: 0; /* altura da linha */
+}
+
+footer{
+    background-color: #070F2B;
+    color: #9290C3;
+    text-align: right;
+}
+
+footer p{
+    width: 80%; /* sempre referente a o elemento pai*/
+    margin: 0 auto; /* auto = centraliza container */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* uso do seletor tag! Agora usamos classe */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.text-justify{
+    text-align: justify;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+.img-container {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.img-100{
+    width: 100%;
+}
+
+.section-container{
+    padding-bottom: 85px;
+}
+
